@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tourney:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Rally Light Switch</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 class="main-title">Scoreboard</h1>
+
+    <div class="main-container" id="main-container">
+      <div class="team-names">
+        <p id="team-a">HOME</p>
+        <p id="team-b">AWAY</p>
+      </div>
+      <div class="teams-container">
+        <div class="team" id="home">
+          <button id="home-addBtn" class="score-btn">+</button>
+          <button id="home-subtractBtn" class="score-btn">-</button>
+          <div id="home-score" class="score">0</div>
+        </div>
+        <div class="team" id="away">
+          <div id="away-score" class="score">0</div>
+          <button id="away-addBtn" class="score-btn">+</button>
+          <button id="away-subtractBtn" class="score-btn">-</button>
+        </div>
+      </div>
+    </div>
+
+    <p>Result: <span id="show-result">Waiting...</span></p>
+    <button id="switch-mode">switch theme</button>
+
+    <script src="script.js"></script>
+  </body>
+</html>

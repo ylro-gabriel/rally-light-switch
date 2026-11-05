@@ -144,3 +144,11 @@ span {
   background-color: rgb(10, 15, 27);
   color: greenyellow;
 }
+
+#switch-mode {
+  padding: 10px;
+  border-radius: 15px;
+  font-size: 15px;
+  font-family: "Tourney", sans-serif;
+  font-weight: bold;
+}
